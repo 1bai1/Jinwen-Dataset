@@ -36,7 +36,7 @@ To simulate the natural decay of bronze artifacts, a **Restrained Wear/Tear Augm
 </p>
 
 
-### Full Dataset Access (完整数据集获取)
+### Full Dataset Access
 
 > **Note**: This repository currently provides a **sample subset** of the dataset for demonstration and testing purposes. 
 > To request access to the **complete dataset (14,000 images)** for academic research or non-commercial use, please contact the author:
