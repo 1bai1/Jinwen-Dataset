@@ -32,7 +32,7 @@ To simulate the natural decay of bronze artifacts, a **Restrained Wear/Tear Augm
   <img src="assets/image3.jpg" width="32%" />
 </p>
 <p align="center">
-  <em>图：从左至右分别为不同布局下的 YOLO 识别结果</em>
+  <em>YOLO Detection Examples</em>
 </p>
 
 ## License
