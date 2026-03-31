@@ -1,6 +1,29 @@
 # Jinwen-Dataset
 A dataset of Jinwen (Chinese Bronze Inscriptions) for OCR and paleography research.
 
+## Dataset Generation & Composition
+
+This repository contains a hybrid dataset of **14,000 images** (10,000 Train / 3,000 Val / 1,000 Test), combining authentic bronze inscription rubbings with sophisticated synthetic samples.
+
+### 1. Synthesis Strategy (Multi-Character Layout)
+To simulate the traditional vertical reading order and layout of bronze inscriptions, the synthetic data follows these strict constraints:
+* **Density & Coverage**: Each image contains at least **25 characters**, ensuring a background coverage of over **75%**.
+* **Vertical Alignment**: Characters are arranged in regular vertical columns. To mimic real rubbings, a **vertical overlap effect** is applied between adjacent characters in the same column.
+* **Stochastic Variations**: To improve model robustness, the following random parameters are introduced:
+    * Variations in the number of columns and characters per column.
+    * Subtle fluctuations in character size, column spacing, and overlap ratios.
+    * Minor affine and perspective transformations, along with brightness jittering.
+
+### 2. Annotation & Task
+* **Format**: YOLO v8 standard (txt).
+* **Task**: Object Detection (Character Localization).
+* **Label**: This dataset focuses solely on "where the character is." All characters are labeled under a single class: `char`. No transcription (translation) is provided in this version.
+
+### 3. Data Augmentation (Restrained Enhancement)
+To simulate the natural decay of bronze artifacts, a **Restrained Wear/Tear Augmentation** has been applied. 
+* **Goal**: Introduce slight erosions and texture noise while preserving the structural integrity of the strokes. 
+* **Constraint**: Augmentation is kept "conservative" to prevent the model from learning unrealistic noise patterns.
+
 
 ## License
 
