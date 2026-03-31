@@ -15,7 +15,7 @@ To simulate the traditional vertical reading order and layout of bronze inscript
     * Minor affine and perspective transformations, along with brightness jittering.
 
 ### 2. Annotation & Task
-* **Format**: YOLO v8 standard (txt).
+* **Format**: YOLO.
 * **Task**: Object Detection (Character Localization).
 * **Label**: This dataset focuses solely on "where the character is." All characters are labeled under a single class: `char`. No transcription (translation) is provided in this version.
 
