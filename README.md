@@ -14,4 +14,4 @@ This dataset is licensed under the **[Creative Commons Attribution-NonCommercial
 
 If you find this dataset helpful for your research, please cite it as follows:
 
-> [Jinmingwanxiang]. (2026). Jinwen-Dataset: A Comprehensive Dataset of Chinese Bronze Inscriptions. GitHub. [Your Repository Link]
+> [Jinmingwanxiang]. (2026). Jinwen-Dataset: A Comprehensive Dataset of Chinese Bronze Inscriptions. GitHub. [https://github.com/1bai1/Jinwen-Dataset.git]
