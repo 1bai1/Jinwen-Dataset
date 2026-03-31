@@ -25,6 +25,16 @@ To simulate the natural decay of bronze artifacts, a **Restrained Wear/Tear Augm
 * **Constraint**: Augmentation is kept "conservative" to prevent the model from learning unrealistic noise patterns.
 
 
+### Detection Examples
+<p align="center">
+  <img src="assets/image1.jpg" width="32%" />
+  <img src="assets/image2.jpg" width="32%" />
+  <img src="assets/image3.jpg" width="32%" />
+</p>
+<p align="center">
+  <em>图：从左至右分别为不同布局下的 YOLO 识别结果</em>
+</p>
+
 ## License
 
 This dataset is licensed under the **[Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)](https://creativecommons.org/licenses/by-nc-sa/4.0/)** license.
