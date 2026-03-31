@@ -35,6 +35,15 @@ To simulate the natural decay of bronze artifacts, a **Restrained Wear/Tear Augm
   <em>YOLO Detection Examples</em>
 </p>
 
+
+### Full Dataset Access (完整数据集获取)
+
+> **Note**: This repository currently provides a **sample subset** of the dataset for demonstration and testing purposes. 
+> To request access to the **complete dataset (14,000 images)** for academic research or non-commercial use, please contact the author:
+>
+> * **Contact Person**: [Jinmingwanxiang]
+> * **Email**: [cleopatradonahue261991pfp@gmail.com]
+
 ## License
 
 This dataset is licensed under the **[Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)](https://creativecommons.org/licenses/by-nc-sa/4.0/)** license.
